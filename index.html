@@ -12,10 +12,10 @@
   <h1>Bienvenidos a mi fiesta</h1>
   <h2>Por favor, confirmar asistencia:</h2>
 
-  <form class="formulario">
-    Nombre <input type="text" name="name" id="name">
+  <form class="formulario" id="form">
+    <label>Nombre</label> <input type="text" name="name" id="name">
     <br />
-    Edad <input type="number" name="age" id="age">
+    <label>Edad</label> <input type="number" name="age" id="age">
     <br />
 
     Nacionalidad
@@ -26,15 +26,15 @@
       <option value="vnzl">Venezolana</option>
     </select>
     <br />
-    <input type="submit">
+    <input type="submit" >
   </form>
 
   <div>
-    <h2>Lista de invitados</h2>
+    <h2 id="lista-de-invitados">Lista de invitados</h2>
 
   </div>
 
-  <script src="../formulario.js"></script>
+  <script src="./formulario.js"></script> <!-- El enlace tenía un punto de más -->
 </body>
 
 </html>
